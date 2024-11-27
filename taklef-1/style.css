@@ -1,0 +1,8 @@
+p
+{
+    width: 80%;
+    height: 300px;
+    font-size: larger;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 0px #ff4500,1px 2px 0px #5e5ea1,1px 3px 0px #8a2be2;
+}

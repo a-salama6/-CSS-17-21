@@ -1,0 +1,31 @@
+/* إستخدم البنية السابقة ولا تقم بالتعديل عليها
+تأكد أن العنصر له نفس الألوان والهوامش الداخلية وعرض العنصر يكون 400px
+الشكل الأول في الصورة هو الوضع الطبيعي للعنصر. عندما يزيد النص سينزل للسطر التالي
+الشكل الثاني في الصورة المحتوى صغير ولم يصل لنهاية العنصر
+الشكل الثالث النصوص الموجودة فيه هي نفس الموجودة في الشكل الأول
+المطلوب قطع النص عند نهاية العنصر ولا تجعله ينزل للسطر التالي
+الثلاث نقاط يتم وضعها تلقائيا ولا تقم بكتابتها */
+
+.one {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cbcdcf;
+  word-wrap: normal;
+  width: 400px;
+}
+.two {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cbcdcf;
+  word-wrap: normal;
+  width: 400px;
+}
+.three {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cbcdcf;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
